@@ -1,9 +1,9 @@
 MONGODB_HOST: mongodb-{{ env }}.umamaheswarreddy.fun #mongodb-dev.umamaheswarreddy.fun
 REDIS_HOST: redis-{{ env }}.umamaheswarreddy.fun
-CATALOGUE_HOST: catalogue-{{ env }}.umamaheswarreddy.fun
-CART_HOST: cart-{{ env }}.umamaheswarreddy.fun
-USER_HOST: user-{{ env }}.umamaheswarreddy.fun
+CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.umamaheswarreddy.fun
+CART_HOST: cart.backend-alb-{{ env }}.umamaheswarreddy.fun
+USER_HOST: user.backend-alb-{{ env }}.umamaheswarreddy.fun
 MYSQL_HOST: mysql-{{ env }}.umamaheswarreddy.fun
 RABBITMQ_HOST: rabbitmq-{{ env }}.umamaheswarreddy.fun
-SHIPPING_HOST: shipping-{{ env }}.umamaheswarreddy.fun
-PAYMENT_HOST: payment-{{ env }}.umamaheswarreddy.fun
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.umamaheswarreddy.fun
+PAYMENT_HOST: payment.backend-alb-{{ env }}.umamaheswarreddy.fun
